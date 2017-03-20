@@ -47,12 +47,52 @@ table {
 	border-spacing: 0;
 }
 
-h1 {
-	font-family: sans-serif;
-	font-weight: bold;
-	background: yellow;
-	text-align: center;
-	max-width: 600px;
-	margin: 0 auto 0 auto;
+/* END OF RESET */
+header {
+  background-color: black;
+  height: 200px;
+  color: white;
 
+}
+header h1 {
+  font-size: 2em;
+  padding: 50px 0;
+
+
+}
+.wrapper {
+  outline: 1px red solid
+  margin: 0 auto 0 auto;
+  overflow: auto;
+  max-width: 960px;
+  margin: 0 auto;
+
+
+}
+.sidebar {
+background-color: pink;
+float: left;
+ height: 700px;
+ outline: 1px red solid;
+ width: 25%;
+}
+.sidebar, main {
+  height: 700px;
+}
+.main {
+  background-color: yellow;
+  float: left;
+  height: 700px;
+  outline 1px red solid;
+  width: 75%;
+}
+footer {
+  outline: 1px red solid;
+  background-color: black;
+  
+  float: none;
+  clear: none;
+}
+footer h1 {
+  font-size: 1.12em;
 }
