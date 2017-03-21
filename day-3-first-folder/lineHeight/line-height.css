@@ -1,0 +1,108 @@
+.wrapper {
+  text-align: center;
+
+}
+.wrapper h1 {
+  font-size: 3.25em;
+}
+.wrapper p {
+  font-size: 1.75em;
+  line-height: 2;
+}
+/* FIRST ROW */
+.row-1 {
+  margin: 0 auto;
+  overflow: auto;
+  width: 100%;
+  float: none;
+
+}
+.row-1 div {
+  font-size: 2em;
+  text-align: center;
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 60px;
+
+}
+.sqr-one {
+  border: solid 5px black;
+}
+.sqr-two {
+  border: solid 5px black;
+  border-radius: 5px;
+}
+.sqr-three {
+  border: solid 5px black;
+  border-radius: 10px;
+}
+.sqr-four {
+  border: solid 5px black;
+  border-radius: 15px;
+}
+/* SECOND ROW */
+.row-2 div {
+  font-size: 2em;
+  text-align: center;
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 60px;
+}
+.sqr-five {
+  border: solid 5px black;
+  border-radius: 20px;
+}
+.sqr-six {
+  border: solid 5px black;
+  border-radius: 30px;
+}
+.sqr-seven {
+  border: solid 5px black;
+  border-radius: 40px;
+}
+.sqr-eight {
+  border: solid 5px black;
+  border-radius: 50px;
+}
+/* THIRD ROW */
+.row-3 div {
+  font-size: 2em;
+  text-align: center;
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 60px;
+}
+.sqr-nine {
+  border: solid 5px black;
+  border-radius: 60px;
+}
+.sqr-ten {
+  border: solid 5px black;
+  border-radius: 70px;
+}
+.sqr-eleven {
+  border: solid 5px black;
+  border-radius: 80px;
+}
+.sqr-twelve {
+  border: solid 5px black;
+  border-radius: 90px;
+}
+/* FOURTH ROW */
+.row-4 div {
+  font-size: 2em;
+  text-align: center;
+  float: none;
+  height: 200px;
+  width: 200px;
+  overflow: auto;
+}
+.sqr-thirteen {
+  border-radius: 100px;
+  border: solid 5px black;
+  margin: 0 auto;
+  float: left;
+}
