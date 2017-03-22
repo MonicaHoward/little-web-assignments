@@ -62,10 +62,12 @@ header h1{
 	margin: 0 auto;
   overflow: auto;
 	padding-top: 20px;
+	text-align: center;
 
 }
 .mini-sub-header div{
-	float: left;
+	float: left:
+
 	margin: 0 auto;
 
 }
@@ -77,6 +79,10 @@ header h1{
   height: 15px;
   margin: 0 auto;
   width: 50px;
+	float: left;
+}
+.date {
+	float: left;
 }
 .red-box h5 {
 	text-align: center;

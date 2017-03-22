@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font-family: 'Verdana';
+}
+.wrapper {
+  margin: 10px auto;
+  width: 90%;
+}
+
+header {
+  background-color: #FF6600;
+  height: 30px;
+  margin: 0 auto;
+}
+
+header ul li {
+  float: left;
+  list-style: none;
+  padding: 5px 10px;
+}
+li img {
+  padding-left: -5px;
+  width: 15px;
+  border: 1px solid white;
+}
+.site-name {
+  font-weight: bold;
+  padding: 5px 5px;
+}
+
+/********************/
+/* MAIN CONTENT SECTION */
+/********************/
+.main {
+  background-color: #F6F6EF;
+  height: 600px;
+  clear: both;
+}
+
+.articles {
+  color: #828282;
+  line-height: 1;
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.articles li {
+
+
+}
+}
+.stats-container {
+padding-top: -5px;
+
+}
+.stats li {
+  color: #828282;
+  display: inline;
+  line-height: .5;
+  font-size: .55em;
+  padding-left: 5px;
+  margin-left: 20px;
+
+
+
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: #808080;
+  text-decoration: none;
+}
+footer {
+  background-color: #f6f6ef;
+  border-top: 2px solid #FF6600;
+  height: 200px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+ footer ul {
+   padding-bottom: 20px;
+   padding-top: 20px;
+
+ }
+
+footer li {
+  display: inline;
+  border-left: 1px solid #808080;
+  padding: 5px;
+}
+footer h3 {
+  color: #808080;
+  display: inline;
+
+}
