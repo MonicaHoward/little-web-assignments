@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/****************************************/
+/* END OF RESET*/
+/****************************************/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+}
+/****************************************/
+/* STICKERS-TITLE */
+/****************************************/
+.stickers-tile {
+  background-color: #003366;
+  text-align: center;
+  padding: 20px;
+}
+.stickers-tile p {
+	color: #b3d4fc;
+
+}
+.stickers-text, .stickers-text:visited, .stickers-text: active {
+	color: #dadbdf;
+	text-decoration: none;
+}
+
+.stickers-tile p:visted{
+	color: #dadbdf;
+	text-decoration: none;
+}
+.stickers-tile p:active {
+	color: #dadbdf;
+	text-decoration: none;
+}
+/****************************************/
+/*  NAV */
+/****************************************/
+
+
+nav {
+}
+
+.nav-links {
+	text-align: right;
+}
+
+.nav-links li {
+	color: #CC6699;
+	display: inline-block;
+	font-size: .8em;
+	padding: 70px 20px;
+}
+/****************************************/
+/*  SUPERPOWERS-TILE */
+/****************************************/
+.superpowers-tile {
+  background-color: gray;
+}
+.superpowers-tile h1 {
+	color: white;
+	font-size: 5em;
+	padding: 20px;
+	text-align: center;
+
+}
+/****************************************/
+/*  GLASSES-TILE */
+/****************************************/
+.glasses-tile {
+	width: 100%;
+}
+.glasses-img  {
+  bacground-color: white;
+  color: green;
+	float: left;
+	padding: 90px 0;
+	width: 50%
+}
+
+.sass-explained {
+	float: left;
+	padding: 90px 0;
+	width: 50%;
+}
+
+/****************************************/
+/*  RELEASES-TILE */
+/****************************************/
+.releases-tile {
+  color: #DADBDF;
+	text-align: center;
+}
+
+.releases-tile li {
+	background: #c6538c;
+	padding: 20px;
+	float: left;
+}
+/****************************************/
+/*  FEATURES-TILE */
+/****************************************/
+.features-tile {
+	clear: both;
+
+}
+/****************************************/
+/*  FOOTER */
+/****************************************/
+footer {
+
+}

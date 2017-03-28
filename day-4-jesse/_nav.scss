@@ -1,0 +1,25 @@
+.nav-container {
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+}
+.logo {
+	width: 20px;
+	float: left;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+.nav-link {
+  list-style-type: none;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	padding-right: 40px;
+	font-size: .85em;
+	line-height: 2.5em;
+	float: right;
+	padding: 10px 20px;
+	margin-right: 20px;
+}
