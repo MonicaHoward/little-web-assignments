@@ -71,6 +71,15 @@ header {
   margin: 0 auto;
   width: 90%;
 }
+
+.instructions {
+  border: 1px dashed #eeeeee;
+  color: grey;
+  font-family: 'Helvetica';
+  text-align: center;
+  padding: 20px;
+  width: 120px;
+}
 h1 {
   font-family: 'Josefin Slab', serif;
   font-size: 7em;
@@ -83,4 +92,5 @@ h2 {
 }
 .on {
   font-family: 'Great Vibes', cursive;
+  line-height: 1.33;
 }
