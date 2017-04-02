@@ -46,6 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+
+
 header h1{
   font-family: sans-serif;
   font-size: 10em;
@@ -60,31 +65,48 @@ header h1{
 }
 .mini-sub-header {
 	margin: 0 auto;
+	font-family: sans-serif;
+	font-weight: bold;
   overflow: auto;
 	padding-top: 20px;
 	text-align: center;
+	width: 15%;
 
 }
-.mini-sub-header div{
-	float: left:
 
-	margin: 0 auto;
-
-}
+/*
 .red-box {
   color: white;
   background-color: red;
   border-radius: 2px;
+	display: inline;
   font-family: sans-serif;
   height: 15px;
   margin: 0 auto;
-  width: 50px;
+  width: 50%;
+}
+*/
+.red-thing {
+	background: red;
+	color: white;
+	border-radius: 2px;
+	font-family: sans-serif;
+	margin: 0 5px;;
+	padding: 2px;
 	float: left;
+	display: inline;
+
 }
 .date {
+
 	float: left;
+	display: inline;
+
 }
-.red-box h5 {
+
+
+.red-box h6 {
+	margin: 0 auto;
 	text-align: center;
 }
 
@@ -97,6 +119,7 @@ header h1{
   font-family: sans-serif;
   font-size: 2em;
   font-weight: bold;
+	line-height: 1.5;
   text-align: center;
 }
 .article-one h6 {
@@ -133,4 +156,12 @@ header h1{
   line-height: 1.5;
   padding: 20px;
   text-align: left;
+}
+a:link {
+	text-decoration: none;
+	color: blue;
+}
+a:visited {
+	text-decoration: none;
+	color: blue;
 }
