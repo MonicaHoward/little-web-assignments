@@ -50,12 +50,13 @@ table {
 
 body {
   background-color: #eff7f6;
+	width: 100%;
 }
 
 header {
   background-color: #F2B5D4;
   height: 100px;
-  width: 100%;
+  width: 90%;
 }
 
 .div-container {
@@ -63,8 +64,6 @@ header {
   border-right: 1px solid #b2f7ef;
   border-bottom: 1px solid #b2f7ef;
   border-left: 1px solid #b2f7ef;
-
-
   overflow: auto;
   margin: 0 auto;
   text-align: center;
