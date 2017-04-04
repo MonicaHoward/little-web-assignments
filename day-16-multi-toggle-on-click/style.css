@@ -50,13 +50,19 @@ table {
 
 body {
   background-color: #eff7f6;
-	width: 100%;
+
 }
 
 header {
   background-color: #F2B5D4;
+	color: #9E898F;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 3em;
   height: 100px;
-  width: 90%;
+	line-height: 2;
+	margin: 0 auto;
+	text-align: center;
+
 }
 
 .div-container {
@@ -67,7 +73,6 @@ header {
   overflow: auto;
   margin: 0 auto;
   text-align: center;
-  width: 90%;
 }
 
 .bubble h1 {
@@ -81,7 +86,8 @@ header {
   border: 5px solid #9E898F;
   border-radius: 100%;
   float: left;
-  margin: 20px;
+  margin:200px 20px;
+
   width: 10%;
 }
 
@@ -89,7 +95,7 @@ header {
   background-color: #B2F7EF;
   border: 5px solid #F7D6E0;
   border-radius: 100%;
-  float: left;
-  margin: 20px;
+	float: left;
+  margin:200px 20px;
   width: 10%;
 }
