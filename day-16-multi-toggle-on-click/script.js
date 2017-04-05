@@ -27,7 +27,16 @@
 
 
 var theButton = document.querySelector('#add-thing');
-var ol =
+var ol = document.querySelector('ol');
+
+
+ol.addEventListener('click', function(evt) {
+  console.log(evt);
+  if(evt.target.tagname === 'LI'){
+    
+  }
+  evt.target.classList.toggle('on');
+});
 
 theButton.addEventListener('click' function () {
 
