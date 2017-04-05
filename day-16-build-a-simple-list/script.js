@@ -11,9 +11,11 @@ var groceryList = [
   'gum'
 ];
 
+var li = document.createElement('li');
+
 for (var = i; i < groceryList.length; i++) {
 
-  var li = document.createElement('li');
+
 
    groceryList.appendChild(li);
 
