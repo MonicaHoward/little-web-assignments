@@ -55,15 +55,33 @@ header {
   text-align: center;
 }
 
-#side-bar {
+
+
+.button {
+	border: 1px solid black;
+	height: 100px;
+	line-height: 3;
+	float: right;
+	margin: 500px 20px;
+	text-align: center;
   width: 20%;
+
 }
 
 #main-content {
+	float: left;
   width: 70%;
+}
+.list-title {
+	font-size: 3em;
+	margin: 20px;
 }
 
 li {
+	color: white;
+	font-size: 2em;
   background-color: #9CE37D;
-  color: white;
+	margin: 10px;
+	line-height: 3;
+
 }

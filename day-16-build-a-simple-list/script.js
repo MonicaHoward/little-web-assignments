@@ -1,5 +1,9 @@
 var theList = document.querySelector('#the-list');
 
+var theButton = document.querySelector('.button');
+
+var li = document.createElement('li');
+
 var groceryList = [
   'sausage',
   'shrimp',
@@ -10,17 +14,3 @@ var groceryList = [
   'cheese',
   'gum'
 ];
-
-var li = document.createElement('li');
-
-for (var = i; i < groceryList.length; i++) {
-
-
-
-   groceryList.appendChild(li);
-
-
-
-
-
-}
