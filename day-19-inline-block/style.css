@@ -46,11 +46,26 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*
+ul {
+  background-color: gray;
+  overflow: auto;
+}
+
+li {
+  background-color: gray;
+  color: #fff;
+  float: left;
+  padding: 10px 0;
+  width: 25%
+}
+*/
+ul {
+background-color: gray;
+}
 
 
-.link {
-	background-image: url(sprite.png);
-	background-position-y:-500px;
-	height: 150px;
-	width: 100px;
+li {
+  background-color: pink;
+  display: inline-block
 }

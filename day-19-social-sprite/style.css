@@ -47,10 +47,24 @@ table {
 	border-spacing: 0;
 }
 
+.facebook {
+  background-color: pink;
+  background-image: url("download.png");
+  height: 98px;
+  width: 98px;
+}
 
-.link {
-	background-image: url(sprite.png);
-	background-position-y:-500px;
-	height: 150px;
-	width: 100px;
+.facebook:hover {
+  background-position: 0 -98px;
+}
+
+.twitter {
+  background-image: url("download.png");
+  background-position: -98px;
+  height: 98px;
+  width: 98px;
+
+}
+.twitter:hover {
+  background-position: -98px -196px;
 }
