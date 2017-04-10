@@ -1,35 +1,40 @@
 var backButton = document.querySelector('.back-button');
 var nextButton = document.querySelector('.next-button');
 var playButton = document.querySelector('.play-button');
-var slideShow = document.querySelector('.slide-show');
+var  slideShow = document.querySelector('.slide-show');
 
 
 var currentImage = 0;
 
 
-var showImages = [
-
+var images = [
 
 'images/chuck-norris-death.jpg',
 
-'chuck-norris-guns.jpg',
+'images/chuck-norris-guns.jpg',
 
-'chuck-norris-password.jpg'
+'image/chuck-norris-password.jpg'
 
 ];
+  document.getElementById("slide-show").src="images/";
+//slideShow.src = showImages[0];
 
-slideShow.src = showImages[0];
+nextButton.addEventListener('click', function (){
+  
 
+/*  for (var i = 0; i < showImages.length; i++) {
 
+  currentImage += 1;
 
-//nextButton.addEventListener('click', function (){
+    if (currentImage === showImages.length) {
 
-//  currentImage += 1;
+      currentImage = 0;
+    }
+  }
+  slideShow.src = showImages[currentImage];
+});
 
-//  if (currentImage === showImages.length) {
-
-//    currentImage = 0;
-//  }
+console.log(slideShow);
 
 //previousButton.addEventListener('click', function (){
 
@@ -37,11 +42,7 @@ slideShow.src = showImages[0];
 
 //  if (currentImage === 0) {
   //  currentImage === showImages.length;
-  }
-});
 
+//});
 
-
-});
-
-slideShow.src = showImages[currentImage];
+*/
