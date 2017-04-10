@@ -14,3 +14,16 @@ var groceryList = [
   'cheese',
   'gum'
 ];
+
+theButton.addEventListener('click', function(evt) {
+
+  for (var i = 0; i < groceryList.length; i++) {
+    document.createElement('LI');
+
+    li.textContent = groceryList[i];
+
+  }
+
+theList.appendChild(li);
+
+});
