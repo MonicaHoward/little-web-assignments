@@ -30,8 +30,23 @@ promise.done(function(data) {
     anLI.appendChild(hairColor);
 
     peopleList.appendChild(anLI);
-
   }
+});
+
+var promise =
+$.ajax ({
+  url: 'http://swapi.co/api/vehicles'
+});
+
+var vehiclesList = document.querySelector('#vehicles-list');
+
+promise.done(function(data) {
+
+for (var i = 0; i < data.results.length; i++) {
+
+  var addLI = document.createElement('li');
+}
+
 
 
 });
