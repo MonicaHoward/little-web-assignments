@@ -47,7 +47,14 @@ table {
 	border-spacing: 0;
 }
 
+body {
+  background-color: #ded2cf;
+}
+
 header h1 {
+  background-color: #293249;
+  border-bottom: 8px solid #aca1a1;
+  color: white;
   font-size: 3em;
   line-height: 2;
   text-align: center;
@@ -72,7 +79,35 @@ header h1 {
   text-align: center;
   width: 24%;
 }
+ul {
 
-.people-list li {
-  border: 1px solid red;
+}
+ul li{
+  border: 10px solid white;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  width: 24%;
+}
+
+ul li:hover {
+  background-color: #69656f;
+  color: white;
+}
+ul h2:hover {
+  color: #f7efed
+}
+
+ul h2 {
+  color: #293249;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+ul div {
+  color: white;
+}
+
+ul div:hover {
+  color: white;
 }
