@@ -7,6 +7,15 @@ $.ajax ({
 var githubUsersMario = document.querySelector('#github-users');
 
 var searchQuery = document.querySelector('#search-query');
+var nextButton = document.querySelector('#next-button');
+var previousButton = document.querySelector('@previous-button');
+var page = 1;
+
+//var totalResutls;
+
+
+
+//function makeAjaxCall()
 
 searchQuery.addEventListener('keyup', function(evt) {
   if (evt.keycode !== 13);
@@ -18,6 +27,9 @@ githubUsersMario.innerHTML = '';
 */
 
 promise.done(function(data){
+
+  //totalResutls = data.total_count;
+  //pageCount = Math.ceil(totalResults/30)
 
   for (var i=0; i < data.items.length; i++) {
 
@@ -42,7 +54,9 @@ promise.done(function(data){
 githubUsersMario.appendChild(addLI);
 
   }
+//nextButton.addEventListener('click', fucntion)
 
+ page += 1;
 
 
 });
