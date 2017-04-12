@@ -15,17 +15,5 @@ for (var i = 1; i < lines.length -1; i++) {
     console.log('________________________________________________________________');
     console.log('Institution Name - ', pieces[3]);
     console.log('COMPOSITE ACT SCORE -', pieces[32]);
-
   }
-
-
-
-
-
-  //console.log('Institution Name - ', pieces[3]);
-
-  //if (pieces[32] !== 'NULL') {
-
-  //console.log('75% CUMULATIVE ACT SCORE - ', pieces[33]);
-//}
 }
