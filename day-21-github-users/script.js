@@ -9,11 +9,11 @@ var githubUsersMario = document.querySelector('#github-users');
 var searchQuery = document.querySelector('#search-query');
 
 searchQuery.addEventListener('keyup', function(evt) {
-  if (evt.keycode !=== 13);
+  if (evt.keycode !== 13);
   return;
-}
+});
 /* to change github users to all after changing url in ajax to return repository search
- 
+
 githubUsersMario.innerHTML = '';
 */
 
