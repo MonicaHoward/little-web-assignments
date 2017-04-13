@@ -6,17 +6,37 @@ $.ajax ({
 
   });
 
-var repoList = document.querySelector('#repo-directory');
+var repoDirectory = document.querySelector('#repo-directory');
 
 var searchQuery = document.querySelector('#search-query');
 
 
-
 promise.done(function(data) {
+
   for (var i = 0; i < data.items.length; i++) {
 
 
-    console.log(data.items);
-  }
+      var addLI = document.createElement('li');
+
+      var repoName = document.createElement('h3');
+      repoName.textContent = data.items[i].name;
+      addLI.appendChild(repoName);
+
+
+      var repoOwner = document.createElement('h3');
+      repoOwner.textContent = data.items[i].login;
+      addLI.appendChild(repoOwner);
+
+
+
+      repoDirectory.appendChild(addLI);
+      console.log(repoDirectory);
+
+
+
+
+}
+repoDirectory.appendChild(addLI);
+console.log(repoDirectory);
 
 });
