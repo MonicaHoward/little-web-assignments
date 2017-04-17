@@ -7,9 +7,17 @@ $.ajax ({
   });
 
 var repoDirectory = document.querySelector('#repo-directory');
-
 var searchQuery = document.querySelector('#search-query');
 
+
+searchQuery.addEventListener('keyup', function(evt) {
+  if (evt.keycode !== 13) {
+    return;
+  }
+repoDirectory.innerHTML = '';
+
+});
+console.log(repoDirectory);
 
 
 
@@ -28,18 +36,8 @@ promise.done(function(data) {
       var repoOwner = document.createElement('h3');
       repoOwner.textContent = data.items[i].owner.login;
       addLI.appendChild(repoOwner);
-
-      repoDirectory.appendChild(addLI);
-      console.log(repoDirectory);
-
-}
-
-
-});
-searchQuery.addEventListener('keyup', function(evt) {
-
-  if (evt.keycode !== 13) {
-    return;
   }
+      // repoDirectory.appendChild(addLI);
+      // console.log(repoDirectory);
 
 });

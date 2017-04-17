@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div data-id="9" id="click-me">click me</div>
+
+    <ol id="swapi-people">
+      <li></li>
+    </ol>
+
+
+
+
+      <script type="text/html" id="list-item-template">
+        <li data-index="{{index}}">{{name}}</li>
+      </script>
+
+      <script type="text/html" id="detail-template"><h1>{{name}}</h1>
+      <div><strong>BirthYear</strong>{{birth-year}}</div>
+      <div><strong>Eye Color</strong>{{eye_color}}</div>
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

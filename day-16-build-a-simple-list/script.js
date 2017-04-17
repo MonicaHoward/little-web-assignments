@@ -15,13 +15,17 @@ var groceryList = [
   'gum'
 ];
 
+
 theButton.addEventListener('click', function() {
+
+
 
   for (var i = 0; i < groceryList.length; i++) {
   var addLI = document.createElement('li');
 
   addLI.textContent = groceryList[i];
   theList.appendChild(addLI);
-}
-return theList.innerHTML;
+  }
+theList[i];
+
 });

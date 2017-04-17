@@ -47,19 +47,26 @@ table {
 	border-spacing: 0;
 }
 
-.nav-links {
-  float: right;
+#swapi-people {
+  float: left;
+  width: 48%;
 }
 
 
-
-
-#page-title {
-  border: 2px solid blue;
-  font-size: 5em;
-  padding: 10px;
+#swapi-people li {
+  border: solid 1px black;
+  padding: 5px 10px;
 }
 
-section {
-  text-align: center;
+#detail {
+  box-shadow: border-box;
+  border: solid 1px red;
+  padding: 1%;
+  width:48%;
+
+}
+#detail h1 {
+  font-family: 'Helvetica';
+  font-size: 2em;
+  font-weight: bold;
 }
