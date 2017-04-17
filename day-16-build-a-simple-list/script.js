@@ -15,22 +15,13 @@ var groceryList = [
   'gum'
 ];
 
-
-console.log(theList);
-theButton.addEventListener('click', function(evt) {
+theButton.addEventListener('click', function() {
 
   for (var i = 0; i < groceryList.length; i++) {
+  var addLI = document.createElement('li');
 
-  var li = document.createElement('li');
-  li.textContent = groceryList[i];
-  theList.appendChild(li);
-
-
-
+  addLI.textContent = groceryList[i];
+  theList.appendChild(addLI);
 }
-
-
-     //theList.appendChild(addLI);
-  //}
-//theList.appendChild(groceryList);
+return theList.innerHTML;
 });
