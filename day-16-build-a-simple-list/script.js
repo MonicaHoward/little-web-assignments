@@ -16,16 +16,17 @@ var groceryList = [
 ];
 
 
-theButton.addEventListener('click', function() {
+theButton.addEventListener('click', function(evt) {
 
 
 
   for (var i = 0; i < groceryList.length; i++) {
-  var addLI = document.createElement('li');
+
+    var addLI = document.createElement('li');
 
   addLI.textContent = groceryList[i];
   theList.appendChild(addLI);
   }
-theList[i];
+return theList;
 
 });

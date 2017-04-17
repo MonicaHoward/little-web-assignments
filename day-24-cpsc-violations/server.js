@@ -4,7 +4,10 @@ var fs = require('fs');
 
 var app = express();
 
+
 app.use(express.static('public'));
+
+app.let('view engine', ejs);
 
 app.get('/api/cpscViolations', function(req, res) {
 
@@ -42,3 +45,7 @@ app.get('/api/cpscViolations', function(req, res) {
 app.listen(5000, function() {
   console.log('listening on port 5000')
 })
+
+
+app.get('/about', function(req, res) {
+    res.render('pages/about');
