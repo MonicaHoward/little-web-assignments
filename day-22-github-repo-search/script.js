@@ -17,7 +17,7 @@ searchQuery.addEventListener('keyup', function(evt) {
 repoDirectory.innerHTML = '';
 
 });
-console.log(repoDirectory);
+
 
 
 
@@ -27,7 +27,7 @@ promise.done(function(data) {
 
 
       var addLI = document.createElement('li');
-
+console.log(repoDirectory);
       var repoName = document.createElement('h3');
       repoName.textContent = data.items[i].name;
       addLI.appendChild(repoName);
@@ -36,6 +36,8 @@ promise.done(function(data) {
       var repoOwner = document.createElement('h3');
       repoOwner.textContent = data.items[i].owner.login;
       addLI.appendChild(repoOwner);
+
+
   }
       // repoDirectory.appendChild(addLI);
       // console.log(repoDirectory);
