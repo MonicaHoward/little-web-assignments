@@ -27,7 +27,9 @@ promise.done(function(data) {
 
 
       var addLI = document.createElement('li');
+
 console.log(repoDirectory);
+
       var repoName = document.createElement('h3');
       repoName.textContent = data.items[i].name;
       addLI.appendChild(repoName);
