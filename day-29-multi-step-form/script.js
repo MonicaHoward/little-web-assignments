@@ -18,12 +18,15 @@ function sectionRules(hideSection, showSection) {
 }
 
 nextButton1.addEventListener('click', function(evt) {
+  evt.preventDefault(nextButton1);
   sectionRules(nameSection, ageSection);
 });
- nextButton2.addEventListener('click', function() {
+ nextButton2.addEventListener('click', function(evt) {
+   evt.preventDefault(nextButton2);
    sectionRules(ageSection, occupationSection);
  });
 submitButton.addEventListener('click', function () {
+  evt.preventDefault(submitButton);
   sectionRules(occupationSection, thankYouSection)
 });
 // nextButton.addEventListener('click', function() {
