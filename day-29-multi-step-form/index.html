@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FORM</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
+  </head>
+  <body>
+
+    <header id="form-info">
+      <h3>COMPLETE THIS FORM</h3>
+      <p><strong>DISCLAIMER:</strong>I promise not to sell your data to a third party. I do not promise I won't personally steal your identity and wreck your credit and overall reputation. </p>
+    </header>
+
+    <form>
+
+      <section id="name-section">
+        <h3>NAME</H3>
+        <h3>First Name</h3>
+        <input name="first-name" placeholder="FIRST NAME" id="first-name"/>
+        <h3>Last Name</h3>
+        <input name="last-name" placeholder="LAST NAME" id="last-name" />
+        <button id="next-button-1">NEXT</button>
+      </section>
+
+      <section id="age-section">
+        <h3>AGE</h3>
+          <input type ="radio" name="age" value="too-young">too young</input><br />
+          <input type="radio" name="age" value="teenager">teenager</input>
+          <input type ="radio" name="age" value="20-something">20-something</input>
+          <input type="radio" name="age" value="too old">too old</input>
+          <!-- <button id="previous-button">previous</button>
+          <button id="next-button-1">next</button> -->
+      </section>
+
+      <section id="occupation-section">
+        <h3>I Want to Be a...</h3>
+          <select>
+            <option>programmer</option>
+            <option>programmer</option>
+            <option>well paid programmer</option>
+          </select>
+        </section>
+
+          <section id="thank-you">
+            <h1>Thank You</h1>
+          </section>
+
+
+      </form>
+      <section id="button-holder">
+        <button id="previous-button">previous</button>
+        <button id="next-button">next</button>
+      </section>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

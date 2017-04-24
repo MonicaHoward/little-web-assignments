@@ -17,21 +17,34 @@ var chuckFacts = [
 
 ];
 
+
 var randomizerButton = document.querySelector('#randomizer-button');
 
+
 randomizerButton.addEventListener('click', function(evt) {
+  var randomChuckFacts = chuckFacts[Math.ceil(Math.random() * chuckFacts.length - 1)];
 
-    var addLI = document.querySelector('li');
+  var randomChuckFactsDisplay = document.querySelector;
+    
 
-    for (var i = 0; i <)
+  var addLI = document.querySelector('li');
+  addLI.textContent = randomChuckFacts;
 
-    var randomChuckFacts = chuckFacts[Math.ceil(Math.random() * chuckFacts.length)];
-
-    var theJokes = document.querySelector('#the-jokes');
-     theJokes.textContent = randomChuckFacts[i];
-     addLI.appendChild(addLI);
-
-
-
-
+  randomChuckFactsDisplay.appendChild(addLI);
+  console.log(randomChuckFacts);
 });
+
+
+
+
+// for (var i = 0; i < chuckFacts; i)
+//   var theJokes = document.querySelector('#the-jokes');
+//   theJokes.textContent = randomChuckFacts[i];
+//   addLI.appendChild(addLI);
+//
+//
+// alert(randomChuckFacts);
+// });
+// function randomChuckFacts {
+//   chuckFacts[Math.ceil(Math.random() * chuckFacts.length)];
+// }
