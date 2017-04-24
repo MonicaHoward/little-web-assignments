@@ -6,28 +6,26 @@ var submitButton = document.querySelector('#submit-button');
 var nameSection = document.querySelector('#age-section');
 var ageSection = document.querySelector('#age-section');
 var occupationSection = document.querySelector('#occupation-section');
+var thankYouSection = document.querySelector('#thank-you');
 var nextButton1 = document.querySelector('#next-button-1');
-// function showNextSection(section) {
-//   if (section.style.display !== 'none') {
-//     section.style.display = 'none';
-//   }
-//     else {
-//       section.style.display = 'block';
-//     }
-// }
-// function showButton(button) {
-//   if (button.section.display == 'none') {
-//     button.style.display = 'block';
-//   }
-// }
-nextButton1.addEventListener('click', function() {
-  SectionRules(nameSection, ageSection);
-});
+var nextButton2 = document.querySelector('#next-button-2');
 
-function SectionRules(hideSection, showSection) {
+function sectionRules(hideSection, showSection) {
+  if (hideSection.style.display !== 'none') {
   hideSection.style.display = 'none';
   showSection.style.display = 'block';
+  }
 }
+
+nextButton1.addEventListener('click', function(evt) {
+  sectionRules(nameSection, ageSection);
+});
+ nextButton2.addEventListener('click', function() {
+   sectionRules(ageSection, occupationSection);
+ });
+submitButton.addEventListener('click', function () {
+  sectionRules(occupationSection, thankYouSection)
+});
 // nextButton.addEventListener('click', function() {
 //
 //   // showNextSection(nameSection);
