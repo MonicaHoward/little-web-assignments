@@ -1,0 +1,12 @@
+header {
+  border-bottom: 1px solid black;
+}
+#read-time-holder {
+  color: red;
+  border: 1px solid black;
+}
+
+#sub-header {
+  float: left;
+  padding: 20px;
+}
