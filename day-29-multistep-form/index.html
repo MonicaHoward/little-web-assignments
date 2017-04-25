@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>form</title>
+  </head>
+  <body>
+    <form>
+    <section class="section" id="first-section">
+      <div>
+        <button>SIGN IN</button>
+        <h4>Already have a log? Sign In?
+      </div>
+      <div>
+        <button id="sign-up-button">SIGN UP</button>
+        <h4>Need an Account? Sign Up?</h4>
+      </div>
+    </section>
+
+    <section class ="section" id="name-section">
+      <h3>NAME</H3>
+      <h3>First Name</h3>
+      <input name="first-name" placeholder="FIRST NAME" id="first-name"/>
+      <h3>Last Name</h3>
+      <input name="last-name" placeholder="LAST NAME" id="last-name" />
+        <button id="namePrevious">PREVIOUS</button>
+        <button id="nameNext">NEXT</button>
+    </section>
+
+    <section id="age-section">
+      <h3>AGE</h3>
+        <input type ="radio" name="age" value="too-young">too young</input><br />
+        <input type="radio" name="age" value="teenager">teenager</input>
+        <input type ="radio" name="age" value="20-something">20-something</input>
+        <input type="radio" name="age" value="too old">too old</input>
+        <button id="agePrevious">PREVIOUS</button>
+        <button id="ageNext">NEXT</button>
+    </section>
+
+    <section id="occupation-section">
+      <h3>I Want to Be a...</h3>
+        <select>
+          <option>programmer</option>
+          <option>programmer</option>
+          <option>well paid programmer</option>
+        </select>
+        <button id="occupationPrevious">PREVIOUS</button>
+        <button id="occupationNext">NEXT</button>
+      </section>
+
+        <section id="thank-you">
+          <h1>Thank You</h1>
+        </section>
+
+    <!-- <div id="button-holder">
+      <button>PREVIOUS</button>
+      <button>NEXT</button>
+    </div> -->
+</form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

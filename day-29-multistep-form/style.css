@@ -111,3 +111,34 @@ input {
 /*#button-holder {
   display: none;
 }*/
+
+
+
+
+
+
+
+
+
+
+.start-page {
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.start-page div {
+  border: 3px solid black;
+  float: left;
+  margin: 0 auto;
+
+  text-align: center;
+  width: 40%;
+}
+#name-section {
+  display: none;
+  text-align: center;
+}
+#button-holder {
+  display: none;
+}

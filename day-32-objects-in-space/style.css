@@ -46,68 +46,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* END OF CSS-RESET*/
 
 body {
-  font-family: 'Antic', sans-serif;
+  min-height: 1000px;
 }
 
-section {
-  border: 3px solid black;
-	border-radius: 8px;
-  margin: 70px auto;
-  padding: 12px;
-  width: 40%;
-}
-
-header h3 {
-  font-size: 3em;
-  margin: 15px auto 30px auto;
+div {
+  position: absolute;
+  border: solid black 1px;
+  height: 100px;
+  width: 100px;
   text-align: center;
-
-  width: 90%;
+  line-height: 100px;
 }
-
-header p {
-  font-size: 2em;
-  margin: 0 auto;
-  text-align: center;
-  width: 90%;
-}
-
-#name-section {
-	display: 'block';
-
-
-}
-#name-section h3 {
-  font-size: 2em;
-
-}
-
-input {
-  font-size: 2em;
-}
-
-#age-section {
-  display: none;
-}
-#occupation-section {
-  display: none;
-}
-#submit-button {
-  display: none;
-}
-#thank-you {
-  display:none;
-}
-#previous-button {
-  display: none;
-}
-#next-button {
-
-}
-
-/*#button-holder {
-  display: none;
-}*/

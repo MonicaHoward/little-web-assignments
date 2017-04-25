@@ -17,9 +17,11 @@ function sectionRules(hideSection, showSection) {
   }
 }
 
-nextButton1.addEventListener('click', function(evt) {
-  evt.preventDefault(nextButton1);
-  sectionRules(nameSection, ageSection);
+nextButton.addEventListener('click', function(evt) {
+  evt.preventDefault(nextButton);
+  nameSection.style.display = 'none';
+  ageSection.style.display = 'block';
+
 });
  nextButton2.addEventListener('click', function(evt) {
    evt.preventDefault(nextButton2);
