@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END OF CSS-RESET*/
+
+body {
+  font-family: 'Antic', sans-serif;
+}
+h1 {
+  font-size: 3em;
+  padding-top: 30px;
+  text-align: center;
+}
+p {
+  font-size: 1em;
+  text-align: center;
+}
+span {
+  display: inline-block;
+}
+button {
+  border-radius: 4px;
+
+}
+section {
+  /*background: ##2B3D41;*/
+  border: 3px solid black;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 400px;
+  margin: 70px auto;
+  padding: 12px;
+  text-align: center;
+  width: 40%;
+}
+
+.sign-in, .sign-up {
+  border: 1px solid black;
+  float: left;
+  padding: 10px;
+  text-align: center;
+  width: 46%;
+}
+
+
+
+header h3 {
+  font-size: 3em;
+  margin: 15px auto 30px auto;
+  text-align: center;
+
+  width: 90%;
+}
+
+header p {
+  font-size: 2em;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+
+#name-section {
+	display: 'block';
+
+
+}
+#name-section h3 {
+  font-size: 2em;
+
+}
+
+input {
+  font-size: 2em;
+}
+
+#age-section {
+  display: none;
+}
+#occupation-section {
+  display: none;
+}
+#submit-button {
+  display: none;
+}
+#thank-you {
+  display:none;
+}
+#previous-button {
+  display: none;
+}
+#next-button {
+
+}
+
+/*#button-holder {
+  display: none;
+}*/
+
+
+
+
+
+
+
+
+
+
+.start-page {
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.start-page div {
+  border: 3px solid black;
+  float: left;
+  margin: 0 auto;
+
+  text-align: center;
+  width: 40%;
+}
+#name-section {
+  display: none;
+  text-align: center;
+}
+#button-holder {
+  display: none;
+}
