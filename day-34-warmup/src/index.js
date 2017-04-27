@@ -3,43 +3,45 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
+// import TickCounter from './TickCounter.js';
+// import Counter from './Counter.js'
+// import
 
-class Counter extends React.Component {
-  constructor() {
+class Clock extends React.Component {
+  constructor () {
     super();
-      this.state = {
-        value: 0
+      this.state = {time: new Date()
       };
   }
 
-  handleUpClick() {
-    var value = this.state.value;
-    value +=1;
-    this.setState({value: value
-    });
+  componentDidMount() {
+      this.time = setInterval(()=>this.setState({time: new Date()
+          }),
+          1000
+      );
   }
 
-  handleDownClick() {
-    var value = this.state.value;
-    if (this.state.value === 0) {
-      return;
-    }
-    value -=1;
-    this.setState({value: value
-    });
-  }
-  render(){
+  render () {
+    var time = this.state.time.toLocaleTimeString();
     return (
-      <div>
-        <button onClick={() => this.handleUpClick()}></button>
-        <h1>{this.state.value}</h1>
-        <button onClick={() => this.handleDownClick()}></button>
-      </div>
-    )
+      <div>{time}</div>
+    );
+  }
+}
+
+
+
+class App extends React.Component {
+  render() {
+    return (
+    <div>
+      <Clock />,
+    </div>
+  )
   }
 }
 
 ReactDOM.render(
-  <Counter />,
+<App />,
   document.getElementById('root')
 );
