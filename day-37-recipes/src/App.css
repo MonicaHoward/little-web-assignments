@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/*
+-----HEADER SECTION--------
+*/
+
+.header {
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  height: 100px;
+}
+/*
+--------BODY SECTION------------
+*/
+.container {
+	margin: 0 auto;
+
+}
+/*
+--------SEARCH BAR --------
+*/
+.query {
+  background-color: grey;
+  height: 50px;
+  margin: 0 auto;
+  text-align: left;
+  width: 80%;
+}
+.query-input {
+  font-size: 1.5em;
+  margin: 10px;
+  text-align: left;
+}
+
+/*
+--------Recipe Div--------
+*/
+.individual-recipe {
+  border: 1px solid gray;
+  height: 200px;
+  margin: 20px;
+  overflow: auto;
+	padding-right: 5px;
+  text-align: center;
+  width: 90%;
+}
+.individual-recipe-photo {
+  background-color: gray;
+  border: 1px solid gray;
+  float: left;
+  text-align: left;
+  margin: 10px;
+  height: 180px;
+	width:180px;
+}
+.individual-recipe-title {
+  font-size: 1.5em;
+  /*float: left;*/
+  line-height: 2;
+  text-align: left;
+}
+.individual-recipe-ingredients {
+  float: left;
+  line-height: 5;
+  /*padding-left: 10px;*/
+}
+.recipe-list {
+
+  border-left: 1px solid black;
+  /*display: inline-block;*/
+	float: left;
+  height: 600px;
+
+  margin: 0 auto 0 143px;
+
+  width: 40%;
+}
+/*
+--------FILTER DIV---------------
+*/
+.filter {
+
+  border-right: 1px solid black;
+  /*display: inline-block;*/
+	float: left;
+  height: 600px;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.filter-instructions {
+  margin: 10px;
+	text-align: left;
+}
+.filter-input {
+  font-size: 1.5em;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.ingredient-name {
+  border: 1px solid gray;
+  color: gray;
+  margin: 10px;
+  padding: 20px 5px;
+}
+/*
+------------FOOTER--------------------
+*/
+.footer {
+	border: 1px solid black;
+	border-top: none;
+  clear: both;
+  height: 150px;
+  margin: 0 auto;
+  width: 80%;
+}
+.footer p, .footer img {
+	float: left;
+	line-height: 5;
+	margin: 0 auto 0 150px;
+}
+ hr {
+	width: 90%;
+
+ }

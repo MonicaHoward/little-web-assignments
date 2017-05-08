@@ -1,0 +1,9 @@
+Use the following block of code to change the names of the props in the api to whatever you want them to be.
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+let fixedData = data.results.map((x) => {
+  return <Recipe
+          name: x.title,
+          url: x.thumbnail,
+          ingredients: x.ingredients
+          };
+})

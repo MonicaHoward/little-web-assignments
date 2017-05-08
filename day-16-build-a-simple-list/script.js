@@ -8,12 +8,14 @@ var groceryList = [
   'cheese',
   'gum'
 ];
+
+// var oneAtATime = 0;
+
 var theButton = document.querySelector('.button');
 
 theButton.addEventListener('click', function() {
   var theList = document.querySelector('#the-list');
 
-  function addStuff(x){
   for (var i = 0; i < groceryList.length; i++) {
     // function addStuff() {
       var addLI = document.createElement('li');
@@ -24,8 +26,4 @@ theButton.addEventListener('click', function() {
 
     }
 
-    // }
-
-  }
-addStuff(groceryList);
 });

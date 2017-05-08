@@ -1,0 +1,10 @@
+React Router
+
+
+Two screens....MASTER and DETAIL
+  MASTER is a parent of DEATIL.
+
+Create a variable to hold the repeating part of the url like this:
+var baseURL= "http://longassurl.com/blah/blahblah";
+
+${baseURL}/rest/oftheurl

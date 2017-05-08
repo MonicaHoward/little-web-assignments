@@ -7,13 +7,13 @@ import './index.css';
 // import Counter from './Counter.js'
 // import
 
+
 class Clock extends React.Component {
   constructor () {
     super();
       this.state = {time: new Date()
       };
   }
-
   componentDidMount() {
       this.time = setInterval(()=>this.setState({time: new Date()
           }),
@@ -21,10 +21,16 @@ class Clock extends React.Component {
       );
   }
 
+
+
+
   render () {
     var time = this.state.time.toLocaleTimeString();
     return (
-      <div>{time}</div>
+      <div>
+        <h1>{time} Central Standard Time</h1>
+        <h1>{time.}</h1>
+        </div>
     );
   }
 }
@@ -35,6 +41,7 @@ class App extends React.Component {
   render() {
     return (
     <div>
+
       <Clock />,
     </div>
   )
