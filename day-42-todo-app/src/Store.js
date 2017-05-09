@@ -1,19 +1,25 @@
 import { createStore } from 'redux';
+import $ from 'jquery';
+import { store } from './store.js';
 
-const SHOW_ITEMS = { type:'SHOW_ITEMS' };
-const HANDLE_CHANGE = { type: 'HANDLE_CHANGE' };
+const REFRESH_DATA = { type:'REFRESH_DATA'};
+const DELETE_ITEM = { type: 'DELETE_ITEM' };
+const CREATE_ITEM = { type: 'CREATE_ITEM'};
+const HANDLE_CHANGE = { type: 'HANDLE_CHANGE'};
+
 
 const initialState = {
-  items =  [],
-  inputValue = ''
+  items: [],
+  inputValue: ''
 };
 
 const reducer = (state = initialState, action) => {
-  seithc (action.type) {
-    case 'HANDLE_CHANGE':
-      return OBJECT.ASSIGN({}, state, {inputValue: action.items});
+  switch (action.type) {
+    case
+      return Object.ASSIGN({}, state, {inputValue: action.items});
     case 'SHOW_ITEMS':
-      return Object.assing({}, state, {items: action.items, inputValue:''});
+      return Object.ASSIGN({}, state, {items: action.items, inputValue:''});
+    case
   }
   return state;
 };
@@ -23,7 +29,6 @@ const store = createStore(reducer);
 module.exports = {
   store: store,
   actions: {
-    SHOW_ITEMS: SHOW_ITEMS,
-    SEARCH_INPUT_CHANGE: SEARCH_INPUT_CHANGE
+
   }
 }

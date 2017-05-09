@@ -1,7 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
-
-
+import {store, actions } from './Store.js';
 import Api from './Api.js';
 console.log(Api);
 
@@ -15,10 +14,7 @@ class TodoApp extends React.Component {
   constructor() {
     super();
 
-    this.state = {
-      inputValue: '',
-      items: []
-    };
+    this.state = store.getState();
   }
 
   refreshData() {
@@ -44,7 +40,7 @@ class TodoApp extends React.Component {
   }
 
   componentDidMount() {
-    this.refreshData();
+    store.subscribe(() => this.setState(store.getState()));
   }
 
   createNewItem(inputText) {
@@ -59,10 +55,6 @@ class TodoApp extends React.Component {
     .done(() => {
       this.refreshData();
     })
-
-
-
-
   }
 
   handleKeyUp(evt) {
