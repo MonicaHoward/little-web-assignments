@@ -48,34 +48,27 @@ table {
 	border-spacing: 0;
 }
 
-
 header {
-  background-color: #A4BAB7;
-  color: ##FFED65;
+  background-color: black;
+  color: white;
   height: 100px;
-  font-size: 1em;
+  font-size: 3em;
+	line-height: 2;
   text-align: center;
-  width: 100%;
 }
 
-
-.slide-show {
-	border: 1px solid red;
-	color: white;
-	margin: 0 auto;
-
+img {
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	width: 600px;
 }
-
-.chuck-death {
-	background-image: chuck-norris-death.jpg;
-	background-size: 150px;
-
-}
-
 
 .button-box {
-
 	margin: 0 auto;
 	padding: 30px;
 	text-align: center;
+}
+button {
+	margin: 0 10px;
 }
