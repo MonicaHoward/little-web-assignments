@@ -33,12 +33,16 @@ nextButton.addEventListener('click', function() {
 });
 
 playButton.addEventListener('click', function() {
-  advancer = setInterval(function(){
-    for (var i = 0; i < image.length; i++) {
-      currentImage += i;
-    }
-  slideShow.src = images[currentImage];
+  if (advancer === undefined) {
+    advancer = setInterval(function() {
+      currentImage ++;
+      slideShow.src = images[currentImage];
     }, 500);
     playButton.src = 'stop';
-  
+  }
+  else {
+    clearInterval(advancer);
+    advancer = undefined;
+    playButton.src = 'play';
+  }
 });
